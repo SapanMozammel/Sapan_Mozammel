@@ -1,0 +1,85 @@
+
+
+html,
+body{
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+}
+header.header_area{
+	height: 100%;
+	position: relative;
+	color: #fff;
+	overflow: hidden;
+}
+.header_bg {
+	height: 100%;
+	overflow: hidden;
+}
+.header_bg video{
+	width: 100%;
+	margin-top: -3.125rem;
+	transform: scale(1.2);
+}
+.header_content{
+	background: rgba(0, 0, 0, 0.9);
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.header_js_effects{
+	position: absolute;
+	top: 0;
+}
+.header_js_effects canvas.starEffect{
+	opacity: 05;
+	position: absolute;
+	top: 0;
+}
+.header_js_effects canvas.hovereffect{
+	opacity: 1;
+	position: absolute;
+	top: 0;
+}
+.main_menu{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #2c3e50;
+	padding: 10px 0px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	z-index: 999;
+}
+.main_menu ul{
+	width: 100%;
+}
+.main_menu li{
+	padding-left:5px;
+}
+.main_menu ul li a,
+.nav-link{
+	padding:0px;
+}
+.hero_area{
+	width: 100%;
+}
+.hero_area p{
+	font-size: 1.9rem;
+	font-family: 'Dancing Script', cursive;
+	/*text-shadow:1px 1px 0px #ccff00;*/
+}
+.hero_area h1{
+	width: 100%;
+	font-weight: 700;
+	line-height: 6.25rem;
+	text-transform: uppercase;
+	text-shadow:2px 2px 0px #ccff00;
+}
+.hero_area a{
+	display: inline-block;
+	margin-right: 10px;
+}
