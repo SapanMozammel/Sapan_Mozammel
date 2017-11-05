@@ -66,11 +66,12 @@ header.header_area{
 }
 .hero_area{
 	width: 100%;
+	padding-top:50px;
 }
 .hero_area p{
 	font-size: 1.9rem;
 	font-family: 'Dancing Script', cursive;
-	/*text-shadow:1px 1px 0px #ccff00;*/
+	letter-spacing: 3px;
 }
 .hero_area h1{
 	width: 100%;
