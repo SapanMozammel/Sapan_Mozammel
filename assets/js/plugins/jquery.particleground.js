@@ -101,7 +101,7 @@
      */
     function styleCanvas() {
       canvas.width = element.offsetWidth;
-      canvas.height = service_content + 200;
+      canvas.height = service_content + 250;
       ctx.fillStyle = options.dotColor;
       ctx.strokeStyle = options.lineColor;
       ctx.lineWidth = options.lineWidth;

@@ -5,13 +5,14 @@ body{
 	background: #f1f1f1;
 	height:100%;
 	font-family: 'Open Sans', sans-serif;
+	color: #2c3e50;
 }
 img{
 	max-width: 100%;
 }
 section:not(.hero_area){
-	padding-top: 5rem;
-	padding-bottom: 6rem;
+	padding-top: 6rem;
+	padding-bottom: 7rem;
 }
 
 /*section heading*/
@@ -139,8 +140,28 @@ section:not(.hero_area){
 	text-align: center;
 	width: 100%;
 	position: absolute;
-	top: 0px;
+	top: 0;
 }
 .service_area .section_heading{
 	color: #fff!important;
+}
+
+/*code shop area*/
+.code_shop_area{}
+.code_shop_content{
+	text-align: center;
+}
+.code_shop_content img{
+	width:25%;
+}
+.code_shop_content h5{
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.1875rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+.code_shop_content p{
+	letter-spacing: 0.125rem;
+	line-height: 1.7rem;
 }
