@@ -1,27 +1,89 @@
 
-
+/*default*/
 html,
 body{
+	background: #f1f1f1;
 	height:100%;
 	font-family: 'Open Sans', sans-serif;
 }
-header.header_area{
+img{
+	max-width: 100%;
+}
+section:not(.hero_area){
+	padding-top: 5rem;
+	padding-bottom: 6rem;
+}
+
+/*section heading*/
+.section_heading{
+	text-align: center;
+	color: #2c3e50;
+	margin-bottom: 4rem;
+}
+.section_heading h1{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	/*font-style: italic;*/
+}
+.section_heading p{
+	margin-top: 1.5rem;
+	letter-spacing: 0.1875rem;
+}
+
+/*header area*/
+.header_area{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #2c3e50;
+	border-top: 0.0625rem solid #000;
+	border-bottom: 0.0625rem solid #000;
+	z-index: 999;
+}
+.header_area .navbar-brand {
+	font-size: 2rem;
+	color: #fff;
+	font-weight: 700;
+}
+.header_area .navbar-brand:hover {
+	color: #eee;
+}
+.header_area .navbar-brand img{
+	width: 3.5rem;
+	margin-right: .3rem;
+}
+.header_area ul{
+	width: 100%;
+}
+.header_area li{
+	padding-left:0.3125rem;
+}
+.header_area ul li a,
+.nav-link{
+	padding: 0;
+	text-align: center;
+}
+
+/*hero area*/
+.hero_area{
 	height: 100%;
 	position: relative;
 	color: #fff;
 	overflow: hidden;
+	padding-top: 4rem;
+	background: url(assets/img/hero_bg.jpg)no-repeat scroll center center / cover;
 }
-.header_bg {
+.hero_bg {
 	height: 100%;
 	overflow: hidden;
 }
-.header_bg video{
-	width: 100%;
-	margin-top: -3.125rem;
-	transform: scale(1.2);
+.hero_bg video{
+	min-height: 100%;
+	min-width: 100%;
+	transform: scale(1.5);
 }
-.header_content{
-	background: rgba(0, 0, 0, 0.9);
+.hero_content{
+	background: rgba(0, 0, 0, 0.8);
 	position: absolute;
 	top: 0;
 	height: 100%;
@@ -30,57 +92,55 @@ header.header_area{
 	align-items: center;
 	text-align: center;
 }
-.header_js_effects{
+.hero_js_effects{
 	position: absolute;
 	top: 0;
 }
-.header_js_effects canvas.starEffect{
+.hero_js_effects canvas.starEffect{
 	opacity: 05;
 	position: absolute;
 	top: 0;
 }
-.header_js_effects canvas.hovereffect{
+.hero_js_effects canvas.hovereffect{
 	opacity: 1;
 	position: absolute;
 	top: 0;
 }
-.main_menu{
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background: #2c3e50;
-	padding: 10px 0px;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
-	z-index: 999;
-}
-.main_menu ul{
+.hero_main_content{
 	width: 100%;
 }
-.main_menu li{
-	padding-left:5px;
-}
-.main_menu ul li a,
-.nav-link{
-	padding:0px;
-}
-.hero_area{
-	width: 100%;
-	padding-top:50px;
-}
-.hero_area p{
+.hero_main_content p{
 	font-size: 1.9rem;
 	font-family: 'Dancing Script', cursive;
-	letter-spacing: 3px;
+	letter-spacing: 0.1875rem;
+	font-style: italic;
 }
-.hero_area h1{
+.hero_main_content h1{
 	width: 100%;
 	font-weight: 700;
 	line-height: 6.25rem;
 	text-transform: uppercase;
-	text-shadow:2px 2px 0px #ccff00;
+	text-shadow:0.125rem 0.125rem 0 #ccff00;
 }
-.hero_area a{
+.hero_main_content a{
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 0.625rem;
+}
+
+/*about area*/
+.about_area{}
+
+/*service area*/
+.service_area{
+	background: #2c3e50;
+	position: relative;
+}
+.service_content{
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+.service_area .section_heading{
+	color: #fff!important;
 }

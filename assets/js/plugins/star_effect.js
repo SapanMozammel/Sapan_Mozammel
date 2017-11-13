@@ -11,7 +11,7 @@
         height = window.innerHeight;
         target = {x: 0, y: height};
 
-        largeHeader = document.getElementById('header_js_effects');
+        largeHeader = document.getElementById('hero_js_effects');
         largeHeader.style.height = height+'px';
 
         canvas = document.getElementById('star-effect');
@@ -65,7 +65,6 @@
         (function() {
             _this.pos = {};
             init();
-            console.log(_this);
         })();
 
         function init() {
