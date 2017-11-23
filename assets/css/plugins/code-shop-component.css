@@ -1,4 +1,4 @@
-.service_box {
+.code_shop_box {
 	width: 300px;
 	height: 460px;
 	position: relative;
@@ -12,13 +12,13 @@
 	transition: background 0.4s 0.5s;
 }
 
-.service_box:hover {
+.code_shop_box:hover {
 	background: rgba(255,255,255,0);
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
 }
 
-.service_box h3 {
+.code_shop_box h3 {
 	font-family: "Ruthie", cursive;
 	font-size: 180px;
 	line-height: 370px;
@@ -27,7 +27,7 @@
 	width: 100%;
 }
 
-.service_box span {
+.code_shop_box span {
 	display: block;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -36,26 +36,26 @@
 	padding: 5px;
 }
 
-.service_box h3,
-.service_box span {
+.code_shop_box h3,
+.code_shop_box span {
 	-webkit-transition: color 0.4s 0.5s;
 	transition: color 0.4s 0.5s;
 }
 
-.service_box:hover h3,
-.service_box:hover span {
+.code_shop_box:hover h3,
+.code_shop_box:hover span {
 	color: #fff;
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
 }
 
-.service_box svg {
+.code_shop_box svg {
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
-.service_box svg line {
+.code_shop_box svg line {
 	stroke-width: 3;
 	stroke: #ecf0f1;
 	fill: none;
@@ -63,37 +63,37 @@
 	transition: all .8s ease-in-out;
 }
 
-.service_box:hover svg line {
+.code_shop_box:hover svg line {
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
 
-.service_box svg line.top,
-.service_box svg line.bottom {
+.code_shop_box svg line.top,
+.code_shop_box svg line.bottom {
 	stroke-dasharray: 330 240; 
 }
 
-.service_box svg line.left,
-.service_box svg line.right {
+.code_shop_box svg line.left,
+.code_shop_box svg line.right {
 	stroke-dasharray: 490 400;
 }
 
-.service_box:hover svg line.top {
+.code_shop_box:hover svg line.top {
 	-webkit-transform: translateX(-600px);
 	transform: translateX(-600px);
 }
 
-.service_box:hover svg line.bottom {
+.code_shop_box:hover svg line.bottom {
 	-webkit-transform: translateX(600px);
 	transform: translateX(600px);
 }
 
-.service_box:hover svg line.left {
+.code_shop_box:hover svg line.left {
 	-webkit-transform: translateY(920px);
 	transform: translateY(920px);
 }
 
-.service_box:hover svg line.right {
+.code_shop_box:hover svg line.right {
 	-webkit-transform: translateY(-920px);
 	transform: translateY(-920px);
 }
