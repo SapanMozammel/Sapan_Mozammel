@@ -21,9 +21,7 @@
 }
 
 .short-link-effect a:hover,
-.short-link-effect a:focus,
-.large-linkeffect a:hover,
-.large-linkeffect a:focus {
+.large-linkeffect a:hover{
 	outline: none;
 }
 
@@ -85,14 +83,12 @@
 	font-weight: 600;
 }
 
-.large-link-effect a:hover span,
-.large-link-effect a:focus span {
+.large-link-effect a:hover span{
 	background: #000;
 	color: #fff;
 }
 
-.large-link-effect a:hover span::before,
-.large-link-effect a:focus span::before {
+.large-link-effect a:hover span::before{
 	-webkit-transform: rotateX(1deg);	
 	-moz-transform: rotateX(1deg);
 	transform: rotateX(1deg);
@@ -154,20 +150,20 @@
 	font-weight: 600;
 }
 
-.short-link-effect a:hover span,
-.short-link-effect a:focus span {
+.short-link-effect a:hover span{
 	background: #000;
 	color: #fff;
 }
 
-.short-link-effect a:hover span::before,
-.short-link-effect a:focus span::before {
+.short-link-effect a.active span::before,
+.short-link-effect a:hover span::before{
 	-webkit-transform: rotateX(1deg);	
 	-moz-transform: rotateX(1deg);
 	transform: rotateX(1deg);
 }
 
 .page-link-effect a{
+	text-align: center;
 	font-family: 'Vollkorn SC', serif;
 	border: 2px solid #2c3e50;
 	border-radius: 1px;
@@ -187,6 +183,16 @@
 .page-link-effect a:hover{
 	background: #2c3e50;
 	color: #fff!important;
+}
+
+.bg_gray .page-link-effect a{
+	border: 2px solid #fff;
+	color: #fff!important;
+}
+
+.bg_gray .page-link-effect a:hover{
+	background: #fff;
+	color: #2c3e50!important;
 }
 
 
